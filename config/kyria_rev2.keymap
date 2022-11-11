@@ -9,9 +9,9 @@
 
 #define QWERTY 0
 #define DVORAK 1
-#define SYM 2
-#define NUM 3
-#define ETC 4
+#define SYM 0
+#define NUM 2
+#define ETC 3
 
 #define NONE 0
 
@@ -37,6 +37,7 @@
 			>;
 		};
 
+/*
 		symbol_layer {
 			bindings = <
 &trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET                                     &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QUES  &trans
@@ -45,6 +46,7 @@
                               &trans    &trans    &trans     &trans  &trans     &trans  &trans  &trans    &trans     &trans
 			>;
 		};
+*/
 
 		number_layer {
 			bindings = <
