@@ -41,7 +41,7 @@
 			bindings = <
 &trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET                                     &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
 &trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET                                     &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
-&trans  &kp BSLH   &kp TILDE  &kp FSLH  &kp STAR  &kp PIPE   &trans  &trans     &trans  &trans  &kp AMPS  &kp EXCL   &kp COMMA  &kp DOT   &kp EQUAL &trans
+&trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET  &trans  &trans     &trans  &trans  &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
                               &trans    &trans    &trans     &trans  &trans     &trans  &trans  &trans    &trans     &trans
 			>;
 		};
@@ -50,7 +50,7 @@
 			bindings = <
 &trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET                                     &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
 &trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET                                     &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
-&trans  &kp BSLH   &kp TILDE  &kp FSLH  &kp STAR  &kp PIPE   &trans  &trans     &trans  &trans  &kp AMPS  &kp EXCL   &kp COMMA  &kp DOT   &kp EQUAL &trans
+&trans  &kp GRAVE  &kp PRCNT  &kp AT    &kp HASH  &kp CARET  &trans  &trans     &trans  &trans  &kp DLLR  &kp UNDER  &kp MINUS  &kp PPLS  &kp QMARK &trans
                               &trans    &trans    &trans     &trans  &trans     &trans  &trans  &trans    &trans     &trans
 			>;
 		};
