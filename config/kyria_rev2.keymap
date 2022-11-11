@@ -8,10 +8,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define QWERTY 0
-#define DVORAK 0
+#define DVORAK 1
 #define SYM 0
 #define NUM 0
 #define ETC 0
+
+#define NONE 0
 
 / {
 	keymap {
@@ -25,11 +27,7 @@
                          &none  &none  &kp LCMD  &kp LCTRL  &kp LALT    &mo NUM  &mo SYM  &kp SPACE  &mo ETC  &none
 			>;
 		};
-	};
-};
 
-
-/*
 		dvorak_layer {
 			bindings = <
 &trans  &kp FSLH  &kp COMMA  &kp DOT  &kp P   &kp Y                                     &kp F   &kp G   &kp C   &kp R  &kp L  &trans
@@ -38,6 +36,11 @@
                              &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 			>;
 		};
+	};
+};
+
+
+/*
 
 		symbol_layer {
 			bindings = <
